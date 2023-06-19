@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+
+    <div id="todoSection">
+      <h2>Todo</h2>
+      <input type="text" id="taskInput" placeholder="Enter a task" />
+      <button onclick="addTask()">Add Task</button>
+      <p class="new hidden">Your list of tasks are completed!!!</p>
+      <ul id="taskList"></ul>
+    </div>
+
+    <div id="completeSection">
+      <h2>Complete</h2>
+      <ul id="completedTasks"></ul>
+      <button id="deleteAllButton">Delete All</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
